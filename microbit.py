@@ -12,7 +12,7 @@ def panic(error_code):
 def reset():
     """resets the micro:bit."""
 
-class Button:
+class _Button:
     def is_pressed():
         """returns True or False to indicate if the button is pressed at the time of the method call."""
     def was_pressed():
@@ -20,12 +20,12 @@ class Button:
     def get_presses():
         """returns the running total of button presses, and resets this counter to zero"""
 
-button_a = Button()
-button_b = Button()
+button_a = _Button()
+button_b = _Button()
 
-class Display:
-    def get_pixel(x, y):
-        """gets the brightness of the pixel (x,y). Brightness can be from 0 (the pixel is off) to 9 (the pixel is at maximum brightness)."""
+class _Display:
+    def get_pixel(self, x, y):
+        """ARTASASD the brightness of the pixel (x,y). Brightness can be from 0 (the pixel is off) to 9 (the pixel is at maximum brightness)."""
     def set_pixel(x, y, val):
         """sets the brightness of the pixel (x,y) to val (between 0 [off] and 9 [max brightness], inclusive)."""
     def clear():
@@ -37,9 +37,9 @@ class Display:
     def scroll(string, delay=400):
         """scrolls a string across the display (more exciting than display.show for written messages)."""
 
-display = Display()
+display = _Display()
 
-class MicroBitPin:
+class _MicroBitPin:
     def write_digital(value):
         """value can be 0, 1, False, True"""
     def read_digital():
@@ -55,24 +55,24 @@ class MicroBitPin:
     def is_touched():
         pass
 
-pin1 = MicroBitPin()
-pin2 = MicroBitPin()
-pin3 = MicroBitPin()
-pin4 = MicroBitPin()
-pin5 = MicroBitPin()
-pin6 = MicroBitPin()
-pin7 = MicroBitPin()
-pin8 = MicroBitPin()
-pin9 = MicroBitPin()
-pin10 = MicroBitPin()
-pin11 = MicroBitPin()
-pin12 = MicroBitPin()
-pin13 = MicroBitPin()
-pin14 = MicroBitPin()
-pin15 = MicroBitPin()
-pin16 = MicroBitPin()
-pin19 = MicroBitPin()
-pin20 = MicroBitPin()
+pin1 = _MicroBitPin()
+pin2 = _MicroBitPin()
+pin3 = _MicroBitPin()
+pin4 = _MicroBitPin()
+pin5 = _MicroBitPin()
+pin6 = _MicroBitPin()
+pin7 = _MicroBitPin()
+pin8 = _MicroBitPin()
+pin9 = _MicroBitPin()
+pin10 = _MicroBitPin()
+pin11 = _MicroBitPin()
+pin12 = _MicroBitPin()
+pin13 = _MicroBitPin()
+pin14 = _MicroBitPin()
+pin15 = _MicroBitPin()
+pin16 = _MicroBitPin()
+pin19 = _MicroBitPin()
+pin20 = _MicroBitPin()
 
 # to do: Images
 # to do: The accelerometer
