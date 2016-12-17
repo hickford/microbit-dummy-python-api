@@ -11,7 +11,7 @@ Motivation
 Important note
 ----
 
-You can't use this library to control a [BBC micro:bit](http://microbit.org/). If you try to run code written for the micro:bit on your computer it will not work. You will need to flash your script to micro:bit somehow with [Mu](http://codewith.mu/) or [uFlash](https://uflash.readthedocs.io/en/latest/).
+You can't use this library to control a [BBC micro:bit](http://microbit.org/). If you try to run code written for the micro:bit on your computer it will not work. You will need to flash your script to your micro:bit somehow with [Mu](http://codewith.mu/) or [uFlash](https://uflash.readthedocs.io/en/latest/).
 
 Compatible editors
 ----
