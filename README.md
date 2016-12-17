@@ -19,7 +19,7 @@ Compatible editors
 Autocomplete has been tested with the following editors:
 
 * [Python Tools for Visual Studio](https://microsoft.github.io/PTVS/)
-* Sublime Text with Sublime JEDI package
+* [Sublime Text](https://www.sublimetext.com/) with [SublimeJEDI](https://github.com/srusskih/SublimeJEDI) package
 * [IDLE](https://docs.python.org/3/library/idle.html)
 
 Installation
