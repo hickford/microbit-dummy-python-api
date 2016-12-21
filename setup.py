@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='microbit',
+    name='microbit-dummy',
 
     # useful: python setup.py sdist bdist_wheel upload
     version='0.0.1',

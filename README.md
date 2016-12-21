@@ -25,9 +25,9 @@ Autocomplete has been tested with the following editors:
 Installation
 ----
 
-From [PyPI](https://pypi.python.org/pypi/microbit):
+From [PyPI](https://pypi.python.org/pypi/microbit-dummy):
 
-    pip install microbit
+    pip install microbit-dummy
 
 Usage
 ----
